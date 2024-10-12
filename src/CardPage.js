@@ -15,7 +15,7 @@ const CardPage = ({ weather, setWeather }) => {
         method: "GET",
         url: `https://open-weather13.p.rapidapi.com/city/${encodedId}/EN`,
         headers: {
-          "x-rapidapi-key": env.process.API_KEY, // Use your actual API key
+          "x-rapidapi-key": "2ea876294emsh3e70597448d70cep19717ajsn15c595af811e", // Use your actual API key
           "x-rapidapi-host": "open-weather13.p.rapidapi.com",
         },
       };
