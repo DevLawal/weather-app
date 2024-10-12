@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: #4b59c5;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
