@@ -20,7 +20,7 @@ function App() {
   };
 
   return (
-    <div className="App flex flex-col justify-center items-center">
+    <div className="App min-h-[100vh]  flex flex-col justify-center items-center">
       <header className="flex h-[20vh] justify-center items-center">
         <form
           onSubmit={getWeather}
