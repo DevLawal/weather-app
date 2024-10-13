@@ -12,8 +12,7 @@ const CardPage = ({ weather, setWeather }) => {
         method: "GET",
         url: `https://weatherapi-com.p.rapidapi.com/current.json?q=${id}`,
         headers: {
-          "x-rapidapi-key":
-            "2ea876294emsh3e70597448d70cep19717ajsn15c595af811e",
+          "x-rapidapi-key": process.env.API_KEY,
           "x-rapidapi-host": "weatherapi-com.p.rapidapi.com",
         },
       };
